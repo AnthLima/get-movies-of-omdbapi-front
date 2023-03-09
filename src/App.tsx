@@ -8,6 +8,7 @@ import {
 import styles from "./App.module.scss";
 import SearchTextArea from "./components/SearchTextArea/SearchTextArea";
 import videoBg from "./assets/videoBg.mp4";
+import InputButton from "./components/InputButton/InputButton";
 export default function App() {
   return (
     <ThemeProvider>

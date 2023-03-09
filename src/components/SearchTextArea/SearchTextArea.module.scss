@@ -27,6 +27,8 @@
 }
 
 .containerInputSearch {
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
   max-width: 900px;
 }
