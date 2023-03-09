@@ -1,13 +1,16 @@
-import { useState } from 'react'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import {
+  ThemeProvider,
+  Button,
+  Popover,
+  PopoverDomRef,
+  TextArea,
+} from "@ui5/webcomponents-react";
+import styles from "./App.modules.scss";
+import SearchTextArea from "./components/SearchTextArea/SearchTextArea";
+export default function App() {
   return (
-    <div>
-      Olá dev
-    </div>
-  )
+    <ThemeProvider>
+      <SearchTextArea />
+    </ThemeProvider>
+  );
 }
-
-export default App
