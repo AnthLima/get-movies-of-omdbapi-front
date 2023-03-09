@@ -2,11 +2,15 @@ import { TextArea } from "@ui5/webcomponents-react";
 import styles from "./SearchTextArea.module.scss";
 export default function SearchTextArea() {
   return (
-    <div>
-      <TextArea
-        className={styles.textArea}
-        onChange={function ka() {}}
-        onInput={function ka() {}}
+    <div className={styles.containerInputSearch}>
+      <label className={styles.titleOfSearchInput}>
+        {" "}
+        Find perfect movie for evening{" "}
+      </label>
+      <input
+        type="search"
+        placeholder="What a film you looking for?"
+        className={styles.inputSearch}
       />
     </div>
   );

@@ -1,7 +1,15 @@
-.textArea {
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
+.titleOfSearchInput {
+}
+
+.inputSearch {
+  width: 100%;
+  height: 3rem;
+  line-height: 40px;
+  resize: none;
+  border: solid 2px #ccc;
+}
+
+.containerInputSearch {
+  margin: 0 auto;
+  max-width: 900px;
 }
