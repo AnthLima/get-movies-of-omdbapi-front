@@ -3,7 +3,10 @@ import styles from "./SearchTextArea.module.scss";
 export default function SearchTextArea() {
   return (
     <>
-      <label className={styles.titleOfSearchInput}> Find perfect movie </label>
+      <label className={styles.titleOfSearchInput}>
+        {" "}
+        FIND MOVIE INTO OMDBAPI{" "}
+      </label>
       <div className={styles.containerInputSearch}>
         <input
           type="search"

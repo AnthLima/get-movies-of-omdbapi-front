@@ -3,12 +3,14 @@
   border-radius: 0;
   height: 3rem;
   width: 3rem;
-  color: #fff;
+  color: #e0e0e0;
   border: 2px solid #8f8f8f;
   background-color: #cccccc28;
 }
 
 .inputButton:hover {
+  color: #fff;
+  border: solid 2px #fff;
   border-radius: 0;
   height: 3rem;
 }
