@@ -1,4 +1,8 @@
 .titleOfSearchInput {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inputSearch {
@@ -6,7 +10,20 @@
   height: 3rem;
   line-height: 40px;
   resize: none;
-  border: solid 2px #ccc;
+
+  border: 2px solid #8f8f8f;
+  background-color: #cccccc28;
+  color: #fff;
+  padding: 20px;
+}
+
+.inputSearch:focus {
+  outline: none;
+  border: solid 2px #fff;
+}
+
+.inputSearch::placeholder {
+  color: #bebebe;
 }
 
 .containerInputSearch {
